@@ -9,7 +9,7 @@ while not end: #Execute's the loop
         os.system('cls' if os.name == 'nt' else 'clear') #Clears the screen
         print("Main Menu")
         print("1. Addition")
-        print("2. Mutilation")
+        print("2. Multiplication")
         print("3. Division")
         print("4. Exit")
         opt = input( "Please Select an Option (1-3): ") #Creates a variable
@@ -40,7 +40,7 @@ while not end: #Execute's the loop
 
     if menu == 2:
         os.system('cls' if os.name == 'nt' else 'clear') #Clears the screen
-        print("Welcome to the Python Mutilation Calculator")
+        print("Welcome to the Python Multiplication Calculator")
         num1 = int(input("Give me a number to multiply "))
         num2 = int(input("Give me another number to multiply "))
         print(num1,"x",num2,"=", num1 * num2)
